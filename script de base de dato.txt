@@ -1,0 +1,17 @@
+CREATE TABLE estudiantes
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nombres VARCHAR(50),
+	Apellidos VARCHAR(50),
+	Sexo VARCHAR(50),
+    Edad INT
+);
+
+(SELECT TOP 100 ROWS)
+
+SELECT TOP (1000) [Id]
+      ,[Nombres]
+      ,[Apellidos]
+      ,[Sexo]
+      ,[Edad]
+  FROM [semana11].[dbo].[estudiantes]
